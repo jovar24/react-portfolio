@@ -17,7 +17,7 @@ export default class PortfolioDetail extends Component {
   getPortfolioItem() {
     axios
       .get(
-        `https://jordan.devcamp.space/portfolio/portfolio_items/${
+        `https://josevargas.devcamp.space/portfolio/portfolio_items/${
         this.props.match.params.slug
         }`,
         { withCredentials: true }
