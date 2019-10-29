@@ -4,7 +4,7 @@ import axios from "axios";
 import Icons from "../helpers/icons";
 
 import NavigationContainer from "./navigation/navigation-container";
-import Home from "./pages/home";
+import Home from "./pages/home"
 import About from "./pages/about";
 import Contact from "./pages/contact";
 import Blog from "./pages/Blog";
