@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import contactPagePicture from "../../../static/assets/images/auth/login.jpg";
 
-export default function () {
+export default function() {
   return (
     <div className="content-page-wrapper">
       <div
@@ -20,7 +20,7 @@ export default function () {
               <FontAwesomeIcon icon="phone" />
             </div>
 
-            <div className="text">555-555-5555</div>
+            <div className="text">385-528-7071</div>
           </div>
 
           <div className="bullet-point-group">

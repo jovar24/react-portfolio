@@ -1,23 +1,31 @@
-import React from 'react'
-import profilePic from "../../../static/assets/images/bio/bio.jpg"
-
-export default function () {
+import React from "react";
+import Aboutimg from "../../../static/assets/images/about/ProfilePic.jpg";
+export default function() {
   return (
     <div className="content-page-wrapper">
-      <div className="left-column"
+      <div
+        className="left-column"
         style={{
-          background: "url(" + profilePic + ") no-repeat",
+          backgroundImage: `url(${Aboutimg})`,
           backgroundSize: "cover",
           backgroundPosition: "center"
         }}
       />
       <div className="right-column">
-        hello this is jose and this is my story for my about page i dont know how long i should make this but i am goin
-      g to type until i feel like it is enought just for the test and if it is not then i will just type a lot of random things and you will read this un
-      til the end of time now i am typing as fast as i can and if i type something wrong then i am sorry but i am one fast typing sucka and if you think you ca
-      n tyope faster than me then you got another thing coming and i will beat you and there is nothibg oyou can do about it and this is just ransom stuff if anyone tries
-      to stop me then i will besat aksjgla;sdjg;aasdfglajsldgjas;ldkgjaslkdgja;lsjfl;ajsl;fjas;ldfljsfklj
+        <h1>About me</h1>
+        <h2>I am a full stack developer from Salt Lake City, UT</h2>
+        <h4>
+          I enjoy solving problems and working with algorithms, I enjoy learning
+          new techniques and strategies. I also have the logic and structure of
+          coding and always strive to write elegant and efficient code. I
+          continuously expand my network and knowledge by attending meetups and
+          researching and working on projects as well.
+        </h4>
+        <h4>
+          When I am not coding you’ll find me in the gym, or out playing soccer
+          with my friends.
+        </h4>
       </div>
     </div>
-  )
+  );
 }
