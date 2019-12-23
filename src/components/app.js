@@ -4,9 +4,9 @@ import axios from "axios";
 import Icons from "../helpers/icons";
 
 import NavigationContainer from "./navigation/navigation-container";
-import Home from "./pages/Home"
-import About from "./pages/About"
-import Contact from "./pages/Contact"
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 import Blog from "./pages/Blog";
 import BlogDetail from "./pages/blog-detail";
 import PortfolioManager from "./pages/portfolio-manager";
@@ -122,7 +122,10 @@ export default class App extends Component {
               <Route
                 path="/b/:slug"
                 render={props => (
-                  <BlogDetail {...props} loggedInStatus={this.state.loggedInStatus} />
+                  <BlogDetail
+                    {...props}
+                    loggedInStatus={this.state.loggedInStatus}
+                  />
                 )}
               />
 
